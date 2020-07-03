@@ -8,12 +8,15 @@
     <title>Decoration Converter</title>
 </head>
 <body>
-    <div>
-    
-        <textarea id="inputBox" required="true" placeholder="Paste your Honey Hunters World string here"></textarea>
-        <button onclick="convert()">Convert</button>
-        <textarea id="outputBox" readonly="true" placeholder="Your mhw.wiki-db.com string will appear here"></textarea>
-    
+    <div id="textblock">
+        <h1>Decoration String Converter</h1>
+        <p>HunterPie gives you a Honey Hunters World string, you can find it in <highlight>./DataExport/Decorations-HoneyHuntersWorld.txt</highlight>. Paste the string in the textbox below and click on convert to get a decoration string for mhw.wiki-db.com!</p>    
     </div>
+    <textarea id="inputBox" required="true" placeholder="Paste your Honey Hunters World string here"></textarea>
+    <div>
+        <button onclick="convert()">Convert</button>
+    </div>
+    <textarea id="outputBox" readonly="true" placeholder="Your mhw.wiki-db.com string will appear here"></textarea>
+
 </body>
 </html>

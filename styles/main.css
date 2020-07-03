@@ -2,26 +2,53 @@
 
 body {
     background-color:#2f2f2f;
-    
+    text-align: center;
+    color: #efefef;
 }
 
 
 textarea {
     width: 45%;
-    min-width: 30%;
-    min-height: 200px;
+    min-width: 45%;
+    min-height: 250px;
+    max-width: 45%;
+    max-height: 250px;
     background-color: #1f1f1f;
     color: #efefef;
     font-family: 'Roboto', sans-serif;
     border: none;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 button {
     background-color: #1f1f1f;
+    position: relative;
     border: none;
     cursor: pointer;
     color: #efefef;
     padding: 5px 10px 5px 10px;
     font-family: 'Roboto', sans-serif;
-    margin-top: -10px;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+highlight {
+    background-color: #161616;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#textblock {
+    display: block;
+    margin: 0px 150px 0px 150px;
 }
